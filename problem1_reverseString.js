@@ -1,3 +1,4 @@
+//Problem 1: Reverse a String
 function reverseString(str) {
     let splitString = str.split(""); 
     let reverseArray = splitString.reverse();

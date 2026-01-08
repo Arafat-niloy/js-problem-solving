@@ -1,9 +1,11 @@
+//Problem 6: Sum of All Numbers in an Array
+
 function sumArray(arr) {
-    let total = 0;
+    let totalsum = 0;
 
     for (let i = 0; i < arr.length; i++) {
-        total = total + arr[i];
+        totalsum = totalsum + arr[i];
     }
-    return total;
+    return totalsum;
 }
 console.log(sumArray([1, 2, 3, 4])); //output: (1+2+3+4)= 10

@@ -1,3 +1,6 @@
+//Problem 2: Count Vowels in a String
+
+
 function countVowels(str) {
     let count = 0;
     let vowels = "aeiouAEIOU";
@@ -9,4 +12,4 @@ function countVowels(str) {
     }
     return count;
 }
-console.log(countVowels("programming")); //otput = 3 (o, a, i)
+console.log(countVowels("programming")); //output = 3 (o, a, i)

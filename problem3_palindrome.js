@@ -1,3 +1,5 @@
+//Problem 3: Check for Palindrome
+
 function isPalindrome(str) {
     let reversedStr = str.split("").reverse().join("");
     
