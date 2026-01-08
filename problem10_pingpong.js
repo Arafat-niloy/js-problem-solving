@@ -1,5 +1,5 @@
-function pingPong(num) {
-    for (let i = 1; i <= num; i++) {
+function pingPong() {
+    for (let i = 1; i <= 20; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("PingPong");
         } 
@@ -14,4 +14,4 @@ function pingPong(num) {
         }
     }
 }
-pingPong(20);
+pingPong();
